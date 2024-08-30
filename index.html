@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Lucie Cousin Picaudé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="navigation principale">
+            <ul class="menu">
+                <li><a href="#about">Profil</a></li>
+                <li><a href="#experience">Compétences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <div>
+            <section class="me" id="me">
+                <img class="me-img" src="./img/imgMeBis.png">
+                <div class="presentation">
+                    <h1>Lucie <br> COUSIN <br> PICAUDÉ</h1>
+                    <p class="dwj">Développeuse web junior</p>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <h2>A propos de moi</h2>
+                <article class="about-article">
+                    <div class="about-me">
+                        <p>Bonjour,</p>
+                        <p>Ayant travaillée plusieurs années dans differents secteurs comme le fret aérien, la sureté
+                            aéroportuaire, le milieu cynophile.</p>
+                        <p>Aujourd'hui en pleine reconvertion professionnelle, je souhaite approfondire mon
+                            apprentissage en
+                            développement web,
+                            après avoir
+                            été fraichement formée par l'école de formation <a href="https://oclock.io/">O'Clock</a>.
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <section class="experience" id="experience">
+                <div class="competence">
+                    <h2>Compétences</h2>
+                    <article class="competence-front">
+                        <div class="front">
+                            <h3>Front-end</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/SCSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="image-container">
+                            <span style="--i: 1">
+                                <img src="./img/html-5.ico" alt="logo html">
+                            </span>
+                            <span style="--i: 2">
+                                <img src="./img/css-3.ico" alt="logo css">
+                            </span>
+                            <span style=" --i: 3">
+                                <img src="./img/js.ico" alt="logo javascript">
+                            </span>
+                        </div>
+                    </article>
+                    <article class=" competence-back">
+                        <div class="back">
+                            <h3>Back-end</h3>
+                            <ul>
+                                <li>Node JS</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div class="image-container">
+                            <span style="--i: 1">
+                                <img src="./img/nodejs.ico" alt="logo nodejs">
+                            </span>
+                            <span style=" --i: 3">
+                                <img src="./img/postgreSQL.ico" alt="logo postgreSQL">
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class=" parcours">
+                    <article>
+                        <h3>Mon parcours</h3>
+                        <ul>
+                            <li>2024 : Formation Développement Web & Accessibilité </li>
+                            <li>2018 - 2023 : Superviseur bureau</li>
+                            <li>2016 - 2018 : Agent de vérificateur – Cariste</li>
+                            <li>2015 - 2016 : Agent de sécurité</li>
+                            <li>2010 - 2014 : Agent de sûreté aéroportuaire / Conducteur de chien
+                            </li>
+                            <li>2008 - 2010 : Gendarme Adjoint Volontaire en emploi particulier</li>
+                            <li>2004 - 2007 : Apprentie et ouvirère d’exploitation</li>
+                            <li>2004 - 2007 : BEPA Elevage Canin et Félin</li>
+                            <li>2001 - 2004 : BEP Carrières Sanitaires et Sociales</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="portfolio">
+                    <h2>Portfolio</h2>
+                    <p>En cours</p>
+                </div>
+            </section>
+            <section class="formulaire" id="contact">
+                <div class="contact">
+                    <form class="form">
+                        <div class="form_front">
+                            <div class="form_contact">Contact</div>
+                            <p>* Champs obligatoires</p>
+                            <label for="name">
+                                <input id="name" name="name" placeholder="Prénom Nom *" class="input" type="text"
+                                    aria-label="Saisir votre nom et prénom" autocomplete="on" required>
+                            </label>
+                            <label for="societe">
+                                <input id="societe" name="societe" placeholder="Société" class="input" type="text"
+                                    aria-label="Saisir votre société">
+                            </label>
+                            <label for="phone">
+                                <input id="phone" name="phone" placeholder="Téléphone" class="input" type="tel"
+                                    aria-label="Saisir votre numéro de téléphone" autocomplete="on">
+                            </label>
+                            <label for="email">
+                                <input id="email" name="email" placeholder="Email *" class="input" type="email"
+                                    aria-label="Saisir votre email" autocomplete="on" required>
+                            </label>
+                            <label for="message">
+                                <textarea id="message" name="message" placeholder="Message" class="textarea" rows="5"
+                                    cols="40"></textarea>
+                            </label>
+                            <button class="btn">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </section>
+
+    </main>
+    <footer role="contentinfo">
+        <div class="div-footer">
+            <p>&copy; 2024 LCP | Tous droits réservés.</p>
+        </div>
+        <a href="https://github.com/LCous" target="_blank" aria-label="lien vers mon github"><img class="logo-footer"
+                src="./img/logo-github.png" alt=""></a>
+        <a href="" target="_blank" aria-label="lien vers mon linkedin"><img class="logo-footer" src="./img/linkedin.png"
+                alt=""></a>
+    </footer>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
